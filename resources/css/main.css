@@ -27,7 +27,7 @@ a {
 }
 
 .header_headline {
-    font-size: 1.3em;
+    font-size: 0.8em;
     color: #ffffff;
     font-weight: 700;
     margin: 0;
@@ -77,6 +77,11 @@ a {
 }
 
 @media (min-width: 700px) {
+
+    .header_headline {
+        font-size: 1.3em;
+    }
+
     .teasers {
         display: flex;
         justify-content: space-between;
